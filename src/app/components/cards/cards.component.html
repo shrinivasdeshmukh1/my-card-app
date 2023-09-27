@@ -1,0 +1,8 @@
+<p class="text">Cards Data Display</p>
+
+<div class="card-wrapper">
+    <div class="card" *ngFor="let item of cardData">
+        <div class="user">User: {{item.userId}}</div>
+        <div class="title">{{item.title}} - <span>{{(item.completed == true)? 'Completed' : 'Pending'}}</span></div>
+    </div>
+</div>

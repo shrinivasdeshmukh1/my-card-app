@@ -1,0 +1,18 @@
+.stats {
+    text-align: center;
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    .card {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+        width: 300px;
+        box-shadow: 2px 2px 5px #888888;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+}

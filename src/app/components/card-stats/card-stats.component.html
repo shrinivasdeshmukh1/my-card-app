@@ -1,0 +1,9 @@
+<p class="stats">User wise Statistics</p>
+
+<div class="card-wrapper">
+    <div class="card" *ngFor="let item of cardStats">
+        <div class="user">User: {{item.userId}}</div>
+        <div class="pending">Pending: {{item.pending}}</div>
+        <div class="completed">Completed: {{item.completed}}</div>
+    </div>
+</div>
